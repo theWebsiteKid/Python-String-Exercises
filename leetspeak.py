@@ -1,8 +1,8 @@
-message = raw_input("What's happening?: ")
+message = raw_input("What's happening?: ").upper()
 new_message = ''
 
 alpha = ["A","E","G","I","O","S","T"]
-numeric = ["4","3","6","1","0","5",]
+numeric = ["4","3","6","1","0","5","7"]
 
 for char in message:
     letter = char
